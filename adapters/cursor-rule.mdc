@@ -1,0 +1,6 @@
+---
+description: Industrial PLC Modbus TCP Ethernet async communication rules for Rust
+globs: ["src/plc/*.rs"]
+---
+
+Consult `.skill/rust-plc-modbus-agent-skill/SKILL.md` for Rust tokio-modbus TCP patterns.
