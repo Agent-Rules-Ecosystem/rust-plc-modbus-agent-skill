@@ -42,9 +42,22 @@ graph TD
 
 ---
 
-## 📦 Instalación como Submódulo
+## ⚡ Quick Start
 
+**1. Instala la skill como submódulo**
 ```bash
-mkdir -p .skill
 git submodule add git@github.com:Agent-Rules-Ecosystem/rust-plc-modbus-agent-skill.git .skill/rust-plc-modbus-agent-skill
 ```
+
+**2. Activa la skill con `$boot`**
+```text
+$boot
+```
+
+**3. Ejecuta el primer comando de la skill**
+```text
+$work agregar lector Modbus TCP asíncrono con Tokio
+```
+
+---
+
