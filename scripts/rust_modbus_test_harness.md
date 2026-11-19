@@ -1,6 +1,5 @@
 # Script de Diagnóstico — Rust Modbus TCP Harness
 
-```markdown
 ```bash
 # Verificar puerto 502 de PLC objetivo
 nc -zvw3 192.168.1.50 502
